@@ -1,6 +1,12 @@
 apply plugin: "com.android.application"
 apply plugin: "com.facebook.react"
 
+// Applovin
+apply plugin: 'applovin-quality-service'
+applovin {
+    apiKey "Key here"    
+}
+
 import com.android.build.OutputFile
 
 /**
